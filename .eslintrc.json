@@ -11,7 +11,8 @@
         "ecmaVersion": 12
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "jest"
     ],
     "rules": {
         "comma-dangle": "off"
