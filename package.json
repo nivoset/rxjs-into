@@ -1,14 +1,14 @@
 {
-  "name": "pipe-to",
+  "name": "rxjs-pipe-into",
   "version": "1.0.0",
-  "description": "",
+  "description": "pipe to pipe results from one observable into a Subject",
   "main": "lib/into.js",
   "scripts": {
     "test": "npx jest",
     "test:watch": "npx jest --watchAll",
     "build": "npx tsc"
   },
-  "author": "",
+  "author": "Ben Koop",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.24",
