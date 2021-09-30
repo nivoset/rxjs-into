@@ -1,10 +1,10 @@
 import { Subject, Observable, } from 'rxjs'
 import { takeUntil, } from 'rxjs/operators'
 
-export const into = <T extends {}>(observable: Subject<T>) => {
-  const finish = new Subject<null>()
+export const into = <T>(observable: Subject<T>) => {
+  const finish = new Subject<void>()
   observable.subscribe({
-    complete: () => finish.next(null),
+    complete: () => finish.next(),
   })
 
   return (obs: Observable<T>): Observable<T> => {
