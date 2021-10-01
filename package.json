@@ -1,6 +1,6 @@
 {
   "name": "using-rxjs-pipe-into",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pipe to pipe results from one observable into a Subject",
   "main": "lib/into.js",
   "repository": {
