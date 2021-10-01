@@ -1,5 +1,5 @@
 import { of, Subject, interval } from 'rxjs'
-import { take, map, mapTo, finalize, } from 'rxjs/operators'
+import { take, mapTo, finalize, } from 'rxjs/operators'
 import { into } from './into'
 
 const error = () => { throw new Error('') };

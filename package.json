@@ -1,5 +1,5 @@
 {
-  "name": "rxjs-pipe-into",
+  "name": "using-rxjs-pipe-into",
   "version": "1.0.0",
   "description": "pipe to pipe results from one observable into a Subject",
   "main": "lib/into.js",
@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "eslint-plugin-jest": "^24.5.0",
-    "rxjs": "^7.3.0"
+    "rxjs": "^7.3.0",
+    "rxjs-pipe-into": "^1.0.0"
   }
 }
